@@ -115,7 +115,17 @@ print("El número más grande es:", numeroMayor)
 
 palabra = str(input("¿Que planta vas a regalar?: "))
 
-str planta1 = Espatifilo 
+planta1 = "Espatifilo"
+planta2 =  "espatifilo"
 
-if (palabra == Espatifilo):
-    
+
+if (palabra == planta1):
+    print("Si, ¡El Espatifilo es la mejor planta de todos los tiempos!")
+else:
+    if (palabra == planta2): 
+        print("No, ¡quiero un gran Espatifilo!")
+    else:
+        print("¡Espatifilo! ¡No", palabra,"!" )
+        
+
+## LABORATORIO 2: 
